@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", Helvetica, "sans-serif";
+
+
+}
+
+.container-footer{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container-header{
+
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+
+	
+}
+
+.container-body{
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+	
+	width: 100%;
+
+}
+
+.clear {
+	clear: both;
+}
+
+
+section{
+	margin-top: 10px;
+	position: fixed-bottom;
+	bottom: 0;
+	width: 100%;
+
+}
+
+footer.footer-one{
+	padding: 20px 0;
+	width: 100%;
+	background: rgb(117,97,117);
+	background: linear-gradient(90deg, rgba(117,97,117,1) 0%, rgba(170,47,126,1) 35%, rgba(236,9,166,1) 100%);
+	
+}
+
+.footer-single{
+	width: 33.3%;
+	padding: 0 15px;
+	color: white;
+}
+
+.footer-single a{
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+.footer-single h2{
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.footer-single p{
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.footer-single a:hover{
+	text-decoration: none;
+
+	}
+
+.link_instagram{
+	text-decoration: none;
+	font-size: 15px;
+	margin: 8px;
+	color: white;
+}
+
+.link_facebook{
+	text-decoration: none;
+	font-size: 15px;
+	margin: 8px;
+	color: white;
+}
+
+.social-media{
+	margin-top: 10px;
+}
+
+.footer-two{
+	color: white;
+	text-align: center;
+	padding: 8px 0;
+	background: #ec09a6;
+	font-size: 14px;
+
+}
+
+@media screen and(max-width: 768px){
+	.footer-single{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+}
+
+header{
+
+	background: rgb(117,97,117);
+	background: linear-gradient(90deg, rgba(117,97,117,1) 0%, rgba(170,47,126,1) 35%, rgba(236,9,166,1) 100%);
+	padding: 4px 0px;
+	width: 100%;
+}
+
+.logo{
+	width: 80px;
+}
+
+.logo-desktop{
+	width: 80px;
+}
+
+nav.desktop{
+	float: right;
+	margin: 25px;
+
+}
+
+nav.desktop li{
+	display: inline-block;
+	padding: 0px 15px;
+}
+
+nav.desktop a{
+	color: white;
+	text-decoration: none;
+}
+
+nav.desktop a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+nav.mobile{
+	display: none;
+}
+
+@media screen and (max-width: 768px){
+	.logo-desktop,
+	nav.desktop{
+		display: none;
+	}
+
+
+	nav.mobile h3{
+		cursor: pointer;
+		position: absolute;
+		left: 0;
+		top: 0;
+		color: white;
+
+	}
+
+	nav.mobile{
+		position: relative;
+		text-align: center;
+		display: block;
+		width: 100%;
+	}
+
+	nav.mobile ul{
+		display: none;
+		background: rgb(117,97,117);
+		background: linear-gradient(90deg, rgba(117,97,117,1) 0%, rgba(170,47,126,1) 35%, rgba(236,9,166,1) 100%);
+		position: relative;
+		left: -2%;
+		top: 30px;
+		width: 104%;
+		text-align: center;
+	}
+
+	nav.mobile li{
+		padding: 8px 0;
+		border: 1px solid white;
+	}
+
+	nav.mobile a{
+		color: white;
+		text-decoration:none;
+	}
+
+}
+
+.mercadorias{
+	width: 100%;
+}
+
+h6{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#produtos{
+	padding: 20px 0;
+}
+
+.card{
+	margin-top: 20px; 
+}
+
+.img-fluid{
+	width: 500px;
+}
